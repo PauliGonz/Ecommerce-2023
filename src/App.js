@@ -6,7 +6,7 @@ import { HomeContainer } from './containers/HomeContainer/homeContainer';
 import { greeting } from './utils/funciones';
 
 function App() {
-  return (
+   return (
     <div className="App">
       <p>{greeting('Hellou hellou hellou!!')}</p>
       <HomeContainer/>      
@@ -14,8 +14,6 @@ function App() {
 
       {/*colocar los parentesis de esta forma para que se ejecute al pinchar en el boton agregar el nombre*/}
       <button onClick = {() => {saludarEnConsola('Pauli')}}>Agregar</button>
-      <CardComponent/>
-      <CardComponent/>
       <CardComponent/>
     </div>
   );
